@@ -56,7 +56,7 @@ body.motion-ready .reveal.revealed { opacity: 1; transform: translateY(0); }
 .hero-subline p { max-width: 540px; margin: 0; color: var(--soft); font-size: 15px; line-height: 1.55; }
 .hero .primary-link { background: var(--ink); color: #fff; box-shadow: 0 5px 0 #899992; flex: none; border-radius: 2px; }
 .hero .primary-link:hover { background: #31433e; box-shadow: 0 8px 0 #899992; }
-.hero-film { position: relative; z-index: 1; height: clamp(235px,40svh,430px); flex: none; margin-top: 30px; overflow: hidden; color: #fff; background: #372b24 url('./afterimage-hero.png') center 54%/cover no-repeat; transform: scale(var(--hero-zoom,1)) translateY(var(--hero-drift,0px)); transform-origin: center bottom; will-change: transform; }
+.hero-film { position: relative; z-index: 1; height: clamp(235px,40svh,430px); flex: none; margin-top: 30px; overflow: hidden; color: #fff; background: #372b24; transform: scale(var(--hero-zoom,1)) translateY(var(--hero-drift,0px)); transform-origin: center bottom; will-change: transform; }
 body.motion-ready .hero-film.reveal { transform: scale(var(--hero-zoom,1)) translateY(var(--hero-drift,0px)); }
 .hero-film::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg,#0008,transparent 30%,transparent 60%,#000a); pointer-events: none; }
 .hero-film-top,.hero-film-bottom { position: absolute; z-index: 1; left: 19px; right: 19px; display: flex; justify-content: space-between; gap: 18px; font: 800 10px/1.4 var(--display); letter-spacing: .15em; }
