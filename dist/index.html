@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#172626" />
+  <meta name="description" content="SetMatch helps student filmmakers and actors find a creative fit for their next film." />
+  <title>SetMatch — Find your next film together</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./intro.css" />
+  <link rel="stylesheet" href="./deck.css" />
+  <link rel="stylesheet" href="./how.css" />
+  <script src="./app.js" type="module"></script>
+</head>
+<body>
+  <div class="site-shell">
+    <a class="skip-link" href="#workspace">Skip to casting workspace</a>
+    <main id="top">
+      <section class="brand-journey" aria-labelledby="setmatchTitle">
+        <div class="journey-stage">
+          <nav class="journey-nav" aria-label="Main navigation"><a class="brand" href="#top" aria-label="SetMatch home">SET<span class="brand-accent">MATCH</span></a><a href="#workspace">Enter workspace <span aria-hidden="true">↗</span></a></nav>
+          <div class="brand-screen">
+            <span class="frame-corner corner-tl" aria-hidden="true"></span><span class="frame-corner corner-tr" aria-hidden="true"></span><span class="frame-corner corner-bl" aria-hidden="true"></span><span class="frame-corner corner-br" aria-hidden="true"></span>
+            <div class="brand-lockup">
+              <span class="intro-logo" aria-hidden="true"><span></span><span></span></span>
+              <h1 id="setmatchTitle">SET<span>MATCH</span></h1>
+              <p>STORIES FIND THEIR PEOPLE.</p>
+            </div>
+            <a class="intro-scroll" href="#discover">SCROLL TO FIND YOUR SCENE <span aria-hidden="true">↓</span></a>
+            <span class="panel-credit" aria-hidden="true">A SETMATCH ORIGINAL / TAKE 01</span>
+          </div>
+          <div class="discover-copy" id="discover">
+            <span class="kicker">YOUR NEXT FILM STARTS WITH PEOPLE</span>
+            <h2><span>Cast.</span> <span>Connect.</span> <span>Create.</span></h2>
+            <p class="discover-description">An idea needs its people. Find actors and filmmakers who share your creative wavelength.</p>
+            <div class="mode-switch cinematic-switch" role="group" aria-label="Choose your role" data-active="filmmaker">
+              <button id="filmmakerTab" data-mode="filmmaker" type="button" class="active" aria-pressed="true">I'm a filmmaker</button>
+              <button id="actorTab" data-mode="actor" type="button" aria-pressed="false">I'm an actor</button>
+            </div>
+            <div class="mode-preview" aria-live="polite"><h3 id="modeHeadline">Your vision. Your ensemble.</h3><p id="modeDescription">Shape a role, discover creative fits, and invite your cast.</p></div>
+            <a href="#workspace" class="primary-link intro-cta"><span id="modeCta">Find your cast</span><span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-journey" id="how-it-works" aria-label="How SetMatch works">
+        <div class="how-stage">
+          <article class="how-scene how-scene-story" data-how-scene>
+            <div class="how-scene-header"><span>SETMATCH / HOW IT WORKS</span><span>01 / 03</span></div>
+            <div class="how-scene-intro"><span>FIRST, THE STORY</span><h2>Good casting starts with understanding.</h2></div>
+            <div class="how-feature">
+              <div class="how-feature-copy"><span class="how-feature-label">01 / DEFINE THE ROLE</span><h3>Describe the role.</h3><p>Share the character, tone, schedule, and what the film asks of a performer.</p><span class="how-feature-foot">A better brief makes a better beginning. <span aria-hidden="true">↗</span></span></div>
+              <div class="how-art how-art-story" aria-hidden="true"><div class="script-page"><span>SCENE 01 / THE BRIEF</span><i></i><i></i><i></i><strong>CHARACTER</strong><em>TONE · SCHEDULE · SKILLS</em></div></div>
+            </div>
+            <div class="how-scene-footer"><span>FROM IDEA TO ENSEMBLE</span><span>SCROLL FOR THE NEXT FRAME ↓</span></div>
+          </article>
+          <article class="how-scene how-scene-fit" data-how-scene>
+            <div class="how-scene-header"><span>SETMATCH / HOW IT WORKS</span><span>02 / 03</span></div>
+            <div class="how-scene-intro"><span>THEN, THE POSSIBILITIES</span><h2>See why the fit makes sense.</h2></div>
+            <div class="how-feature">
+              <div class="how-feature-copy"><span class="how-feature-label">02 / EXPLORE THE FIT</span><h3>Explore the fit.</h3><p>Semantic matching compares the role with actor profiles; concrete reasons make every suggestion reviewable.</p><span class="how-feature-foot">Discover the connection. Question the score. <span aria-hidden="true">↗</span></span></div>
+              <div class="how-art how-art-fit" aria-hidden="true"><div class="fit-orbit orbit-one"></div><div class="fit-orbit orbit-two"></div><span class="fit-node fit-node-role">ROLE</span><span class="fit-node fit-node-actor">ACTOR</span><span class="fit-link"></span><span class="fit-note">STORY ↔ PERSON</span></div>
+            </div>
+            <div class="how-scene-footer"><span>THE REASONS STAY VISIBLE</span><span>SCROLL FOR THE NEXT FRAME ↓</span></div>
+          </article>
+          <article class="how-scene how-scene-invite" data-how-scene>
+            <div class="how-scene-header"><span>SETMATCH / HOW IT WORKS</span><span>03 / 03</span></div>
+            <div class="how-scene-intro"><span>FINALLY, A CONVERSATION</span><h2>A match begins with mutual interest.</h2></div>
+            <div class="how-feature">
+              <div class="how-feature-copy"><span class="how-feature-label">03 / INVITE, THEN DECIDE</span><h3>Invite, then decide.</h3><p>Actors see the full film brief and can accept or decline. The right collaboration starts with two people choosing it.</p><span class="how-feature-foot">Make the invitation. Let the story begin. <span aria-hidden="true">↗</span></span></div>
+              <div class="how-art how-art-invite" aria-hidden="true"><div class="invite-card invite-card-back"><span>THE ROLE</span><strong>01</strong></div><div class="invite-card invite-card-front"><span>YOUR NEXT FILM</span><strong>↗</strong><small>INVITATION SENT</small></div></div>
+            </div>
+            <div class="how-scene-footer"><span>THE CAST IS YOURS TO FIND</span><span>SCROLL TO THE WORKSPACE ↓</span></div>
+          </article>
+        </div>
+      </section>
+
+      <div class="workspace-marquee" role="img" aria-label="SetMatch: storytelling, casting, collaboration, creative chemistry, originality, talent, filmmaking, ensemble, discovery."><div class="marquee-track" aria-hidden="true"><span>STORYTELLING</span><b>—</b><span>CASTING</span><b>—</b><span>COLLABORATION</span><b>—</b><span>CREATIVE CHEMISTRY</span><b>—</b><span>ORIGINAL IDEAS</span><b>—</b><span>ON-CAMERA TALENT</span><b>—</b><span>FILMMAKING</span><b>—</b><span>ENSEMBLE</span><b>—</b><span>DISCOVERY</span><b>—</b><span>STORYTELLING</span><b>—</b><span>CASTING</span><b>—</b><span>COLLABORATION</span><b>—</b><span>CREATIVE CHEMISTRY</span><b>—</b><span>ORIGINAL IDEAS</span><b>—</b><span>ON-CAMERA TALENT</span><b>—</b><span>FILMMAKING</span><b>—</b><span>ENSEMBLE</span><b>—</b><span>DISCOVERY</span><b>—</b></div></div>
+      <section class="workspace" id="workspace">
+        <div class="workspace-topline"><span>THE WORKSPACE</span><span id="workspaceModeLabel">01 / FILMMAKER VIEW</span></div>
+        <div class="workspace-role-row"><span class="demo-label"><span class="live-dot"></span> INTERACTIVE DEMO</span><div class="mode-switch cinematic-switch compact-switch" role="group" aria-label="Switch workspace view" data-active="filmmaker"><button data-mode="filmmaker" type="button" class="active" aria-pressed="true">Filmmaker</button><button data-mode="actor" type="button" aria-pressed="false">Actor</button></div></div>
+
+        <div id="filmmakerView">
+          <div class="section-intro"><div><span class="kicker">FOR FILMMAKERS</span><h2>Cast your next scene.</h2><p>Start with the story. The matching engine finds actors whose interests and experience fit the role.</p></div><button class="text-button" id="editProjectBtn" type="button">Edit project <span aria-hidden="true">↗</span></button></div>
+          <div class="work-grid">
+            <aside id="projectCard" class="project-card"></aside>
+            <div class="recommendations-panel">
+              <div class="panel-header"><div><span class="kicker">ROLE MATCHES</span><h3>People for this part</h3></div><span class="match-count" id="matchCount"></span></div>
+              <div id="engineStatus" class="engine-status" role="status" aria-live="polite"><span class="engine-icon">◎</span><div><strong>Preparing semantic matching</strong><small>Loading an on-device language model. The shortlist is available now.</small></div></div>
+              <div class="filters"><label class="filter-check"><input id="availableOnly" type="checkbox" checked /><span>Available for this shoot</span></label><span class="filter-note">Human choice always decides the invitation.</span></div>
+              <div id="actorMatches" class="actor-list"></div>
+            </div>
+          </div>
+          <div class="activity-strip"><div><span class="mini-icon">↗</span><div><strong>Invitations</strong><small>Actors can review the full brief before responding.</small></div></div><div id="filmmakerInvites"></div></div>
+        </div>
+
+        <div id="actorView" hidden>
+          <div class="section-intro"><div><span class="kicker">FOR ACTORS</span><h2>A role worth reading.</h2><p>See the idea behind an invitation before you decide whether it is yours to take on.</p></div><button class="text-button" id="editProfileBtn" type="button">Edit profile <span aria-hidden="true">↗</span></button></div>
+          <div class="actor-toolbar"><label for="actorSelect">VIEW AS</label><select id="actorSelect" aria-label="Choose demo actor"></select><span>Demo profiles are fictional.</span></div>
+          <div class="actor-work-grid"><aside id="currentProfile" class="profile-panel"></aside><div class="invitation-panel"><div class="panel-header"><div><span class="kicker">YOUR INBOX</span><h3>Project invitations</h3></div><span id="inboxCount" class="match-count"></span></div><div id="actorInvites"></div></div></div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer"><div class="brand brand-footer"><span class="brand-mark" aria-hidden="true"><span></span><span></span></span><span>SET<span class="brand-accent">MATCH</span></span></div><p>A ForgeHacks 2026 prototype · AI + Creativity</p><button id="resetDemoBtn" type="button">Reset demo data</button></footer>
+  </div>
+
+  <dialog id="projectDialog" class="edit-dialog" aria-labelledby="projectDialogTitle"><form id="projectForm" method="dialog"><div class="dialog-header"><div><span class="kicker">FILM BRIEF</span><h2 id="projectDialogTitle">Shape the role</h2></div><button class="close-button" type="button" data-close="projectDialog" aria-label="Close">×</button></div><div class="dialog-fields">
+    <label>Film title<input name="title" required maxlength="80" /></label>
+    <label>Logline<textarea name="logline" required maxlength="240" rows="2"></textarea></label>
+    <label>Role title<input name="role" required maxlength="80" /></label>
+    <label>What does the role need?<textarea name="roleDescription" required maxlength="1000" rows="5"></textarea></label>
+    <label>Creative tone<input name="tone" required maxlength="120" /></label>
+    <div class="field-pair"><label>Genre tags<select name="genres" multiple size="5" aria-describedby="genreHelp"></select><small id="genreHelp">Hold Ctrl or Command to select multiple.</small></label><label>Acting skills<select name="skills" multiple size="5" aria-describedby="skillHelp"></select><small id="skillHelp">Choose what matters to this role.</small></label></div>
+    <label>Availability needed<select name="schedule"></select></label>
+    <label>Shoot commitment<input name="commitment" maxlength="120" /></label>
+    <label>Other information for actors<textarea name="notes" maxlength="500" rows="3"></textarea></label>
+    <small class="form-notice">Changes to this brief also appear in invitations you have already sent.</small>
+  </div><div class="dialog-actions"><button type="button" data-close="projectDialog" class="secondary-button">Cancel</button><button type="submit" class="primary-button">Save film brief <span>↗</span></button></div></form></dialog>
+
+  <dialog id="profileDialog" class="edit-dialog" aria-labelledby="profileDialogTitle"><form id="profileForm" method="dialog"><div class="dialog-header"><div><span class="kicker">ACTOR PROFILE</span><h2 id="profileDialogTitle">Show your range</h2></div><button class="close-button" type="button" data-close="profileDialog" aria-label="Close">×</button></div><div class="dialog-fields">
+    <label>Name<input name="name" required maxlength="70" /></label>
+    <label>Program or experience level<input name="year" maxlength="70" /></label>
+    <label>What kinds of stories and roles interest you?<textarea name="bio" required maxlength="750" rows="5"></textarea></label>
+    <div class="field-pair"><label>Favorite genres<select name="genres" multiple size="5"></select></label><label>Acting skills<select name="skills" multiple size="5"></select></label></div>
+    <label>Availability<select name="availability" multiple size="3"></select><small>Hold Ctrl or Command to select multiple.</small></label>
+    <label>Past work<input name="portfolio" maxlength="160" /></label>
+  </div><div class="dialog-actions"><button type="button" data-close="profileDialog" class="secondary-button">Cancel</button><button type="submit" class="primary-button">Save profile <span>↗</span></button></div></form></dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
